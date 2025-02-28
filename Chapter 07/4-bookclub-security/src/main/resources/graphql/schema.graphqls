@@ -1,0 +1,37 @@
+## Queries
+type Query {
+    bookById(bookId: ID): Book
+    booksByTitle(title: String): [Book]
+    booksByAuthor(author: String): [Book] 
+}
+
+## Mutations
+type Mutation {
+  createBook(book: BookInput!): Book!
+  updateBook(book: BookInput!): Book!
+}
+
+## Types
+type Book {
+  bookId: ID
+  isbn: String
+  title: String
+  author: String
+  publicationYear: Int
+  numberOfCopies: Int
+  copies: [BookCopy]  
+}
+
+type BookCopy {
+  copyId: ID
+  book: Book
+  isAvailable: Boolean
+}
+
+## Input Types
+input BookInput {
+  isbn: String!
+  title: String!
+  author: String!
+  publicationYear: Int!
+}
