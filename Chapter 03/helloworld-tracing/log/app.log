@@ -1,0 +1,16 @@
+2024-06-30T17:29:36.432+12:00  INFO 49369 --- [helloworld-web] [main] c.b.h.c.h.web.HelloworldWebApplication   : Starting HelloworldWebApplication using Java 17.0.2 with PID 49369 (/Users/sagara/Dev/gdrive/Book-Spring6/code/ch3/helloworld-logging/target/classes started by sagara in /Users/sagara/Dev/gdrive/Book-Spring6/code/ch3/helloworld-logging)
+2024-06-30T17:29:36.433+12:00 DEBUG 49369 --- [helloworld-web] [main] c.b.h.c.h.web.HelloworldWebApplication   : Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-30T17:29:36.433+12:00  INFO 49369 --- [helloworld-web] [main] c.b.h.c.h.web.HelloworldWebApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-30T17:29:36.889+12:00  INFO 49369 --- [helloworld-web] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-30T17:29:36.896+12:00  INFO 49369 --- [helloworld-web] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-30T17:29:36.896+12:00  INFO 49369 --- [helloworld-web] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-30T17:29:36.926+12:00  INFO 49369 --- [helloworld-web] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-30T17:29:36.926+12:00  INFO 49369 --- [helloworld-web] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 469 ms
+2024-06-30T17:29:37.107+12:00  INFO 49369 --- [helloworld-web] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-30T17:29:37.112+12:00  INFO 49369 --- [helloworld-web] [main] c.b.h.c.h.web.HelloworldWebApplication   : Started HelloworldWebApplication in 0.916 seconds (process running for 1.173)
+2024-06-30T17:29:46.200+12:00  INFO 49369 --- [helloworld-web] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-30T17:29:46.200+12:00  INFO 49369 --- [helloworld-web] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-30T17:29:46.202+12:00  INFO 49369 --- [helloworld-web] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-30T17:29:46.254+12:00 DEBUG 49369 --- [helloworld-web] [http-nio-8080-exec-1] c.b.h.c.helloworld.web.HelloController   : processing an incoming request
+2024-06-30T17:29:46.254+12:00 DEBUG 49369 --- [helloworld-web] [http-nio-8080-exec-1] c.b.h.c.helloworld.web.GreetingService   : The currrnt hour of the day : 17
+2024-06-30T17:29:46.255+12:00 DEBUG 49369 --- [helloworld-web] [http-nio-8080-exec-1] c.b.h.c.helloworld.web.GreetingService   : Message prefix : Hello world
