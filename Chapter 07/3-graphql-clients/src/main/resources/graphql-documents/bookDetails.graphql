@@ -1,0 +1,8 @@
+query bookDetails($bookId: ID) {
+  bookById(bookId: $bookId) {
+    bookId
+    isbn
+    title
+  }
+}
+
